@@ -390,7 +390,7 @@ The right side runs first: the JVM loads the class if it is not loaded yet, allo
 <details>
 <summary><b>3. Is Java pass-by-value or pass-by-reference?</b></summary>
 
-Java is **always pass-by-value**. For primitives the value is the number itself; for objects the value is the **reference** (the address). So a method can change the object the reference points to and the caller sees it, but assigning a new object to the parameter only re-points the method's own copy — the caller's variable is unchanged.
+Java is always **pass-by-value**. For primitives the value is the number itself; for objects the value is the **reference** (the address). So a method can change the object the reference points to and the caller sees it, but assigning a new object to the parameter only re-points the method's own copy — the caller's variable is unchanged.
 
 </details>
 
