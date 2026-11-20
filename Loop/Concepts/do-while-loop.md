@@ -372,7 +372,7 @@ Yes. Either write the body once before a `while` loop and again inside it (the b
 <details>
 <summary><b>6. How many times is the condition evaluated, and what is the time complexity?</b></summary>
 
-For `n` iterations the condition is evaluated `n` times, because the first run of the body needs no check before it. The time is the number of iterations multiplied by the cost of one body — the same as for the other loops — and since the body always runs once, the minimum cost is one run of the body.
+For `n` **iterations** the condition is evaluated `n` **times**, because the first run of the body needs no check before it. The time is the number of iterations multiplied by the cost of one body — the same as for the other loops — and since the body always runs once, the minimum cost is one run of the body.
 
 </details>
 
