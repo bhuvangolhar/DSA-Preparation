@@ -185,7 +185,7 @@ Reading the next value at the **end** of the body guarantees that every value is
 | Peel digits, halve, divide, reduce | **`while`** | the number of steps depends on the value | `n > 0` or `n >= 0` — check the boundary |
 | Stop early while searching (binary search `lo <= hi`) | **`while`** | free movement of the pointers | update the pointers correctly or the loop never ends |
 | A fixed count, or you need the index | **`for`** instead | initialization, condition and update in one line | — |
-| The body must run at least once (menus, input validation) | **do-while** instead | the condition is checked after the body | a semicolon after `while (...)` |
+| The body must run at least once (menus, input validation) | **`do-while`** instead | the condition is checked after the body | a semicolon after `while (...)` |
 | Only read every element | **for-each** instead | no index, no off-by-one | cannot go backwards or modify primitives |
 
 **Which loop should I use?**
